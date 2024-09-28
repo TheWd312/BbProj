@@ -12,3 +12,4 @@ import { DisplayProfileComponent } from '../common/display-profile/display-profi
 export class AppComponent {
   title = 'BbShow';
 }
+  
