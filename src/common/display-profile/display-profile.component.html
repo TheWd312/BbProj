@@ -1,0 +1,8 @@
+<div class="profile-container">
+    <img [src]="profile.profilePicture" [alt]="profile.name" class="profile-picture">
+    <h2>{{ profile.name }}</h2>
+    <p>Age: {{ profile.age }}</p>
+    <p>Occupation: {{ profile.occupation }}</p>
+    <p>Winning Year: Season {{ profile.winningYear }}</p>
+    <a [href]="profile.watchSessionLink" target="_blank">Watch Winning Season</a>
+  </div>
